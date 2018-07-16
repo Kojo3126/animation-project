@@ -9,17 +9,16 @@ h1 {
 	text-align: center;
 }
 
+.middle {
+	text-align: center;
+}
 .colbutton {
-	width: 200px;
-	font-size: 32px;
+	width: 120px;
+	font-size: 20px;
 	border-radius: 15px;
-	box-shadow: 10px 10px 30px black;
+	box-shadow: 5px 5px 15px black;
 
 }
 
-.nightbutton {
-	width: 200px;
-	font-size: 32px;
-	border-radius: 15px;
-	box-shadow: 10px 10px 30px black;
-}
+.nightbutton {     width: 120px;     font-size: 20px;     border-radius: 15px;
+box-shadow: 5px 5px 15px black; }
