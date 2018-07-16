@@ -3,8 +3,17 @@ html {
 	-webkit-transition: background 1s;
 }
 
-button {
+.colbutton {
 	width: 200px;
 	font-size: 32px;
 	border-radius: 15px;
 	box-shadow: 10px 10px 30px black;
+
+}
+
+.nightbutton {
+	width: 200px;
+	font-size: 32px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 30px black;
+}
