@@ -40,7 +40,7 @@ document.querySelector('.tradclass').addEventListener('click', function(){
     document.getElementById("art").src= imgName
  });
 
-document.querySelector('.mosics').addEventListener('click', function(){
+document.querySelector('.mosaics').addEventListener('click', function(){
 	var randomImage =["9.jpg", "10.jpg", "11.jpg" , "12.jpg" ];
 	var randomNumber = Math.floor(Math.random() * 12) + 9;
     var imgName =  randomNumber + ".jpg";
