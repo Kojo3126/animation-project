@@ -19,7 +19,7 @@ button {
 	padding: 16px;
 }
 
-div{
+div {
     text-align: center;
 }
 
@@ -53,6 +53,7 @@ div{
 	border-radius: 15px;
 	font-family: Trebuchet MS;
 	position: relative; 
+	top: 15px;
 }
 
 .mosaics { 
@@ -61,6 +62,7 @@ div{
 	border-radius: 15px;
 	font-family: Trebuchet MS; 
 	position: relative;
+	top: 15px;
 }
 
 .photographs { 
@@ -68,7 +70,8 @@ div{
 	font-size: 20px;
 	border-radius: 15px;
 	font-family: Trebuchet MS;
-	position: relative; 
+	position: relative;
+	top: 15px; 
 }
 
 .tradclass { 
@@ -77,6 +80,7 @@ div{
 	border-radius: 15px;
 	font-family: Trebuchet MS;
 	position: relative; 
+	top: 15px;
 }
 
 .contact {
