@@ -23,10 +23,10 @@ document.querySelector('.nightbutton').addEventListener('click', function() {
 }
 });
 
-var randomImage =["img1.jpeg", "img2.jpeg", "img3.jpeg" , "img4.jpeg" ];
+var randomImage =["1.jpeg", "2.jpeg", "3.jpeg" , "4.jpeg" ];
 
 function randomImg(){
     var randomNumber = Math.floor(Math.random() * 4) + 1;
-    var imgName = "img1" + randomNumber + ".jpg";
-    document.getElementById("img1").src= "https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FDRo8CDUwkjWHmSF6AoC-Vw%252FThe_weather_project_111160.jpg&width=1200&quality=80" + "/" + img1 ;
+    var imgName = "img" + randomNumber + ".jpeg";
+    document.getElementById("1").src= "1.jpeg " + "/" + img1 ;
  }
