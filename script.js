@@ -40,6 +40,21 @@ document.querySelector('.tradclass').addEventListener('click', function(){
     document.getElementById("art").src= imgName
  });
 
+document.querySelector('.mosics').addEventListener('click', function(){
+	var randomImage =["9.jpg", "10.jpg", "11.jpg" , "12.jpg" ];
+	var randomNumber = Math.floor(Math.random() * 12) + 9;
+    var imgName =  randomNumber + ".jpg";
+    document.getElementById("art").src= imgName
+ });
+
+document.querySelector('.photographs').addEventListener('click', function(){
+	var randomImage =["13.jpg", "14.jpg", "15.jpg" , "16.jpg" ];
+	var randomNumber = Math.floor(Math.random() * 16) + 13;
+    var imgName =  randomNumber + ".jpg";
+    document.getElementById("art").src= imgName
+ });
+
+
 
 
 
