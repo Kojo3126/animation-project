@@ -1,6 +1,8 @@
 html {
 	transition: background 1s;
 	-webkit-transition: background 1s;
+	background-color: black;
+	color: gold;
 }
 
 h1 {
