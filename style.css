@@ -40,6 +40,34 @@ h2 {
 	text-align: center;
 }
 
+.contemporary { 
+	width: 120px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS; 
+}
+
+.mosaics { 
+	width: 120px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS; 
+}
+
+.photographs { 
+	width: 120px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS; 
+}
+
+.tradclass { 
+	width: 200px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS; 
+}
+
 
 
 
