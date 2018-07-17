@@ -25,9 +25,9 @@ document.querySelector('.nightbutton').addEventListener('click', function() {
 
 
 
-document.querySelector('.contemporary').addEventListener('click' function randomImg(){
+document.querySelector('.contemporary').addEventListener('click', function(){
 	var randomImage =["1.jpeg", "2.jpeg", "3.jpeg" , "4.jpeg" ];
     var randomNumber = Math.floor(Math.random() * 4) + 1;
-    var imgName = "img" + randomNumber + ".jpeg";
-    document.getElementById("1").src= "1.jpeg " + "/" + img1 ;
- }
+    var imgName =  randomNumber + ".jpeg";
+    document.getElementById("art").src= imgName
+ });
