@@ -35,21 +35,21 @@ document.querySelector('.contemporary').addEventListener('click', function(){
 
 document.querySelector('.tradclass').addEventListener('click', function(){
 	var randomImage =["5.jpg", "6.jpg", "7.jpg" , "8.jpg" ];
-	var randomNumber = Math.floor(Math.random() * 8) + 5;
+	var randomNumber = Math.floor(Math.random() * 4) + 5;
     var imgName =  randomNumber + ".jpg";
     document.getElementById("art").src= imgName
  });
 
 document.querySelector('.mosaics').addEventListener('click', function(){
 	var randomImage =["9.jpg", "10.jpg", "11.jpg" , "12.jpg" ];
-	var randomNumber = Math.floor(Math.random() * 12) + 9;
+	var randomNumber = Math.floor(Math.random() * 4) + 9;
     var imgName =  randomNumber + ".jpg";
     document.getElementById("art").src= imgName
  });
 
 document.querySelector('.photographs').addEventListener('click', function(){
 	var randomImage =["13.jpg", "14.jpg", "15.jpg" , "16.jpg" ];
-	var randomNumber = Math.floor(Math.random() * 16) + 13;
+	var randomNumber = Math.floor(Math.random() * 4) + 13;
     var imgName =  randomNumber + ".jpg";
     document.getElementById("art").src= imgName
  });
