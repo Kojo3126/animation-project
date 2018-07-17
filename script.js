@@ -26,8 +26,21 @@ document.querySelector('.nightbutton').addEventListener('click', function() {
 
 
 document.querySelector('.contemporary').addEventListener('click', function(){
-	var randomImage =["1.jpeg", "2.jpeg", "3.jpeg" , "4.jpeg" ];
-    var randomNumber = Math.floor(Math.random() * 4) + 1;
-    var imgName =  randomNumber + ".jpeg";
+	var randomImage =["1.jpg", "2.jpg", "3.jpg" , "4.jpg" ];
+	var randomNumber = Math.floor(Math.random() * 4) + 1;
+    var imgName =  randomNumber + ".jpg";
     document.getElementById("art").src= imgName
  });
+
+
+document.querySelector('.tradclass').addEventListener('click', function(){
+	var randomImage =["5.jpg", "6.jpg", "7.jpg" , "8.jpg" ];
+	var randomNumber = Math.floor(Math.random() * 4) + 1;
+    var imgName =  randomNumber + ".jpg";
+    document.getElementById("art").src= imgName
+ });
+
+
+
+
+
