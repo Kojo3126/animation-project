@@ -24,7 +24,6 @@ document.querySelector('.nightbutton').addEventListener('click', function() {
 });
 
 
-
 document.querySelector('.contemporary').addEventListener('click', function(){
 	var randomImage =["1.jpg", "2.jpg", "3.jpg" , "4.jpg" ];
 	var randomNumber = Math.floor(Math.random() * 4) + 1;
