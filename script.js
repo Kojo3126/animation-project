@@ -12,13 +12,13 @@ var isInDarkMode = false;
 
 document.querySelector('.nightbutton').addEventListener('click', function() {
 	if (isInDarkMode) {
-		document.querySelector('html').style.background = "white";
-		document.querySelector('html').style.color= "black";
+		document.querySelector('html').style.background = "black";
+		document.querySelector('html').style.color= "gold";
 		isInDarkMode = false
 	} else {
 
-	document.querySelector('html').style.background = "black";
-	document.querySelector('html').style.color = "beige";
+	document.querySelector('html').style.background = "white";
+	document.querySelector('html').style.color = "black";
 	isInDarkMode = true;
 }
 });
