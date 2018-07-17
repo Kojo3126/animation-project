@@ -22,3 +22,4 @@ document.querySelector('.nightbutton').addEventListener('click', function() {
 	isInDarkMode = true;
 }
 });
+
