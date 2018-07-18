@@ -2,7 +2,6 @@ html {
 	transition: background 1s;
 	-webkit-transition: background 1s;
 	color: beige;
-	background-color: black;
 }
 
 h1 {
