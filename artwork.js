@@ -26,9 +26,17 @@ document.querySelector('.nightbutton').addEventListener('click', function() {
 
 document.querySelector('.contemporary').addEventListener('click', function(){
 	var randomImage =["1.jpg", "2.jpg", "3.jpg" , "4.jpg" ];
+	var randomInfo= ["Olafur Eliasson, The weather project, 2003" ,  "Rachel Harrison, Huffy Howler, 2004" ,
+	" Kehinde Wiley, Napoleon Leading the Army over the Alps, 2005" , " Kara Walker, A Subtlety, 2014"];
 	var randomNumber = Math.floor(Math.random() * 4) + 1;
     var imgName =  randomNumber + ".jpg";
-    document.getElementById("art").src= imgName
+     var Q = Quotation.length;
+     var whichQuotation=Math.round(Math.random()*(Q-1));
+  function showQuotation(){document.write(Quotation[whichQuotation]);}
+  showQuotation();
+
+    document.getElementById("art").src= imgName 
+
  });
 
 
