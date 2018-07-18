@@ -37,6 +37,18 @@ h2 {
     font-size: 35px;
 }
 
+.contact {
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: Copperplate;
+}
+
+.individ {
+	font-size: 31px;
+	font-family: Courier New;
+}
+
+
 
 
 .instruction {
@@ -50,71 +62,4 @@ button {
 
 div {
     text-align: center;
-}
-
-img {
-	text-align: center;
-	width: auto;
-	height: 700px;
-  	margin-top: 50px;
-}
-
-.middle {
-	text-align: center;
-	font-size: 25px;
-	font-family: Courier New;
-	margin-left: 120px;
-	margin-right: 120px;
-}
-.colbutton {
-	width: 120px;
-	font-size: 20px;
-	border-radius: 15px;
-	font-family: Trebuchet MS;
-	position: relative;
-}
-
-.nightbutton { 
-	width: 120px;
-	font-size: 20px;
-	border-radius: 15px;
-	font-family: Trebuchet MS; 
-	position: relative;
-}
-
-
-.contemporary { 
-	width: 220px;
-	font-size: 20px;
-	border-radius: 15px;
-	font-family: Trebuchet MS;
-	position: relative; 
-	top: 20px;
-}
-
-.mosaics { 
-	width: 220px;
-	font-size: 20px;
-	border-radius: 15px;
-	font-family: Trebuchet MS; 
-	position: relative;
-	top: 20px;
-}
-
-.photographs { 
-	width: 220px;
-	font-size: 20px;
-	border-radius: 15px;
-	font-family: Trebuchet MS;
-	position: relative;
-	top: 20px;
-}
-
-.tradclass { 
-	width: 220px;
-	font-size: 20px;
-	border-radius: 15px;
-	font-family: Trebuchet MS;
-	position: relative;
-	top: 20px; 
 }
