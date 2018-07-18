@@ -5,6 +5,119 @@ html {
 	color: beige;
 }
 
+h1 {
+	font-family: Courier New;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Courier New;
+	font-size: 30px;
+	text-align: center;
+}
+
+.sidenav {
+	text-align: center;
+	background-color: red;
+	height: 100%;
+  	width: 100px;
+  	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	overflow-x: hidden;
+  	padding-top: 20px;
+}
+
+.sidenav a {
+	color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.instruction {
+	font-family: Courier New;
+	font-size: 20px;
+}
+
+button {
+	padding: 16px;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+	text-align: center;
+	width: auto;
+	height: 700px;
+  	margin-top: 50px;
+}
+
+.middle {
+	text-align: center;
+	font-size: 25px;
+	font-family: Courier New;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+.colbutton {
+	width: 120px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS;
+	position: relative;
+}
+
+.nightbutton { 
+	width: 120px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS; 
+	position: relative;
+}
+
+
+.contemporary { 
+	width: 220px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS;
+	position: relative; 
+	top: 20px;
+}
+
+.mosaics { 
+	width: 220px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS; 
+	position: relative;
+	top: 20px;
+}
+
+.photographs { 
+	width: 220px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS;
+	position: relative;
+	top: 20px;
+}
+
+.tradclass { 
+	width: 220px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: Trebuchet MS;
+	position: relative;
+	top: 20px; 
+}
+
 
 
 
