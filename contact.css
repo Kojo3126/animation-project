@@ -16,12 +16,11 @@ h2 {
 	font-size: 30px;
 	text-align: center;
 }
-
 .sidenav {
 	text-align: center;
-	background-color: red;
+	background-color: opacity: 1;
 	height: 100%;
-  	width: 100px;
+  	width: 175px;
   	position: fixed;
   	z-index: 1;
   	top: 0;
@@ -34,9 +33,11 @@ h2 {
 	color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-
+    font-family: Copperplate;
+    font-size: 35px;
 }
+
+
 
 .instruction {
 	font-family: Courier New;
