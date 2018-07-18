@@ -30,12 +30,10 @@ document.querySelector('.contemporary').addEventListener('click', function(){
 	" Kehinde Wiley, Napoleon Leading the Army over the Alps, 2005" , " Kara Walker, A Subtlety, 2014"];
 	var randomNumber = Math.floor(Math.random() * 4) + 1;
     var imgName =  randomNumber + ".jpg";
-     var Q = Quotation.length;
-     var whichQuotation=Math.round(Math.random()*(Q-1));
-  function showQuotation(){document.write(Quotation[whichQuotation]);}
-  showQuotation();
+    var quote = randomInfo[randomNumber];
+    document.getElementById("art").src= imgName;
+    document.getElementById("artDescription").textContent= quote;
 
-    document.getElementById("art").src= imgName 
 
  });
 
