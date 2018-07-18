@@ -1,0 +1,37 @@
+html {
+	transition: background 1s;
+	-webkit-transition: background 1s;
+	background-color: black;
+	color: beige;
+}
+
+
+.sidenav {
+	text-align: center;
+	background-color: red;
+	height: 100%;
+  	width: 100px;
+  	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	overflow-x: hidden;
+  	padding-top: 20px;
+}
+
+.sidenav a {
+	color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.instruction {
+	font-family: Courier New;
+	font-size: 20px;
+}
+
+
+
+
