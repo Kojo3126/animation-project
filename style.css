@@ -19,6 +19,14 @@ html {
   	padding-top: 20px;
 }
 
+.middle {
+	text-align: center;
+	font-size: 25px;
+	font-family: Courier New;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
 .sidenav a {
 	color: white;
     padding: 14px 16px;
