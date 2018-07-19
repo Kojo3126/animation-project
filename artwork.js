@@ -47,7 +47,7 @@ document.querySelector('.tradclass').addEventListener('click', function(){
 	var randomNumber = Math.floor(Math.random() * 4) + 5;
 	var quote = randomInfo[randomNumber -1]
     var imgName =  randomNumber + ".jpg";
-    document.getElementById("art").src= imgName
+    document.getElementById("art").src= imgName;
     document.getElementById("artDescription").textContent= quote;
 
  });
@@ -56,19 +56,24 @@ document.querySelector('.photographs').addEventListener('click', function(){
 	var randomInfo= ["Earthrise by William Anders December 24, 1968 dated the first manned mission to orbit the moon. At the beginning of the fourth of 10 orbits, their spacecraft emerged from the far side of the moon when a view of the Earth filled one of the hatch windows. The astronauts, Frank Borman, Jim Lovell and Bill Anders, took the shot and it was our first full-color view of our planet which helped launch the environmental movement. " 
 	, "Raising the Flag on Iwo Jima by Joe Rosenthal. Raising the Flag on Iwo Jima is an iconic photograph captured by Associated Press photographer Joe Rosenthal on February 23, 1945. The picture depicts six United States Marines raising a U.S. flag on top of Mount Suribachi, during the battle of Iwo Jima, in World War II. Rosenthal’s photo became one of the most recognizable images of war and embraced as a symbol of unity in the long-fought war. " ,
 	"The Falling Man by Richard Drew The Falling Man was a photo taken by Richard Drew in the moments after the September 11 attacks. It’s a photo of one man’s distinct escape from the burning, collapsing building that serves as a symbol of individuality. On this day of mass tragedy, Falling Man is one of the only widely seen pictures that shows someone dying. The true power of Falling Man is less about who its subject was since his identity is still unknown, but more about what he became: a makeshift unknown soldier in an often unknown and uncertain war, suspended forever in history.", 
-	];
+	"Migrant Mother was a photo taken in 1936 by Dorothea Lange during the Great Depression. Florence Thompson was the subject of this. In the photo, her children are cowering behind her for protection, hiding their faces, the Migrant Mother gazing distractedly into the distance. She is on her own. There is no help, no protection, and nothing over the horizon but work, want, and wondering."];
 	var randomImage =["13.jpg", "14.jpg", "15.jpg" , "16.jpg" ];
 	var randomNumber = Math.floor(Math.random() * 4) + 13;
 	 var quote = randomInfo[randomNumber -1]
      var imgName =  randomNumber + ".jpg";
-    document.getElementById("art").src= imgName
+    document.getElementById("art").src= imgName;
      document.getElementById("artDescription").textContent= quote;
 
  });
 
 document.querySelector('.mosaics').addEventListener('click', function(){
 	var randomImage =["9.jpg", "10.jpg", "11.jpg" , "12.jpg" ];
+	var randomInfo= ["Secret Between You and Me by artist Atsuko Laskaris. " , " Autumn Landscape " , 
+	"Winter’s Beauty by Laura Rendlen" ," Secret Mosaic Staircase"];
 	var randomNumber = Math.floor(Math.random() * 4) + 9;
     var imgName =  randomNumber + ".jpg";
-    document.getElementById("art").src= imgName
+    var quote = randomInfo[randomNumber - 1]
+    document.getElementById("art").src= imgName;
+    document.getElementById("artDescription").textContent= quote;
+
  });
