@@ -45,7 +45,7 @@ document.querySelector('.tradclass').addEventListener('click', function(){
 	, " Vincent Van Gogh, The Starry Night, 1889 The Starry Night is an oil-on-canvas painting by Dutch artist Vincent Van Gogh. The inspiration behind the painting was the “morning star” he saw from his window at an asylum in Southern France (where he was being treated for his psychological disorders). The sun, on the upper right corner, was created to be the “light” of the painting with its use of radiant white and yellow color painted in concentric circles. It is Van Gogh’s only nocturne in the series of views from his bedroom window. The Starry Night is located at the Museum of Modern Art in New York City."  ,  
 "Eugène Delacroix, Liberty Leading the People, 1830 Liberty Leading the People is a painting by Eugène Delacroix, the leader of the Romantic school in French painting. It commemorates the July Revolution of 1830 that overthrew King Charles X of France. It depicts a woman leading the people forward over a barricade and bodies of the fallen, holding the flag of the French Revolution in one hand and a musket with the other. The fighters are shown to be from a mixture of social classes, from the bourgeoisie (young man in a top hat) to the urban worker (boy holding pistols). Liberty Leading the People left a legacy to multiple groups of people, including possibly inspiring Victor Hugo’s famous novel Les Misérables. It was also used for the band Coldplay’s 2008 album cover Viva la Vida, with the words written in white. The painting is now located in the Louvre, in Paris, France."];
 	var randomNumber = Math.floor(Math.random() * 4) + 5;
-	var quote = randomInfo[randomNumber -1]
+	var quote = randomInfo[randomNumber -5]
     var imgName =  randomNumber + ".jpg";
     document.getElementById("art").src= imgName;
     document.getElementById("artDescription").textContent= quote;
@@ -59,7 +59,7 @@ document.querySelector('.photographs').addEventListener('click', function(){
 	"Migrant Mother was a photo taken in 1936 by Dorothea Lange during the Great Depression. Florence Thompson was the subject of this. In the photo, her children are cowering behind her for protection, hiding their faces, the Migrant Mother gazing distractedly into the distance. She is on her own. There is no help, no protection, and nothing over the horizon but work, want, and wondering."];
 	var randomImage =["13.jpg", "14.jpg", "15.jpg" , "16.jpg" ];
 	var randomNumber = Math.floor(Math.random() * 4) + 13;
-	 var quote = randomInfo[randomNumber -1]
+	 var quote = randomInfo[randomNumber -13]
      var imgName =  randomNumber + ".jpg";
     document.getElementById("art").src= imgName;
      document.getElementById("artDescription").textContent= quote;
@@ -72,7 +72,7 @@ document.querySelector('.mosaics').addEventListener('click', function(){
 	"Winter’s Beauty by Laura Rendlen" ," Secret Mosaic Staircase"];
 	var randomNumber = Math.floor(Math.random() * 4) + 9;
     var imgName =  randomNumber + ".jpg";
-    var quote = randomInfo[randomNumber - 1]
+    var quote = randomInfo[randomNumber - 9]
     document.getElementById("art").src= imgName;
     document.getElementById("artDescription").textContent= quote;
 
