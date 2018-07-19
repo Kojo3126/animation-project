@@ -31,9 +31,10 @@ document.querySelector('.contemporary').addEventListener('click', function(){
      , " Kara Walker, A Subtlety, 2014 A Subtlety (aka the Marvelous Sugar Baby) is a piece of installation art by American artist Kara Walker. The art’s central piece is a white sculpture depicting a woman with African features in the shape of a sphinx but also includes fifteen other sculptures. The piece was installed in the Domino Sugar Factory in the Williamsburg neighborhood of Brooklyn from May through July 2014. The exhibition sparked conversations about the show’s audience, the gentrification of Brooklyn and the work’s themes of race, sexuality, oppression, labor and the ephemeral. "]; 
 	var randomNumber = Math.floor(Math.random() * 4) + 1;
     var imgName =  randomNumber + ".jpg";
-    var quote = randomInfo[randomNumber]
+    var quote = randomInfo[randomNumber - 1]
     document.getElementById("art").src= imgName;
     document.getElementById("artDescription").textContent= quote;
+
 
  });
 
@@ -47,7 +48,7 @@ document.querySelector('.tradclass').addEventListener('click', function(){
 	 var quote = randomInfo[randomNumber]
     var imgName =  randomNumber + ".jpg";
     document.getElementById("art").src= imgName
-       document.getElementById("artDescription").textContent= quote;
+    document.getElementById("artDescription").textContent= quote;
 
  });
 
