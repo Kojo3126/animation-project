@@ -59,6 +59,14 @@ img {
   	margin-top: 50px;
 }
 
+#artDescription {
+	font-size: 25px;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 
 .middle {
 	text-align: center;
