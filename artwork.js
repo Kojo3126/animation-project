@@ -45,23 +45,30 @@ document.querySelector('.tradclass').addEventListener('click', function(){
 	, " Vincent Van Gogh, The Starry Night, 1889 The Starry Night is an oil-on-canvas painting by Dutch artist Vincent Van Gogh. The inspiration behind the painting was the “morning star” he saw from his window at an asylum in Southern France (where he was being treated for his psychological disorders). The sun, on the upper right corner, was created to be the “light” of the painting with its use of radiant white and yellow color painted in concentric circles. It is Van Gogh’s only nocturne in the series of views from his bedroom window. The Starry Night is located at the Museum of Modern Art in New York City."  ,  
 "Eugène Delacroix, Liberty Leading the People, 1830 Liberty Leading the People is a painting by Eugène Delacroix, the leader of the Romantic school in French painting. It commemorates the July Revolution of 1830 that overthrew King Charles X of France. It depicts a woman leading the people forward over a barricade and bodies of the fallen, holding the flag of the French Revolution in one hand and a musket with the other. The fighters are shown to be from a mixture of social classes, from the bourgeoisie (young man in a top hat) to the urban worker (boy holding pistols). Liberty Leading the People left a legacy to multiple groups of people, including possibly inspiring Victor Hugo’s famous novel Les Misérables. It was also used for the band Coldplay’s 2008 album cover Viva la Vida, with the words written in white. The painting is now located in the Louvre, in Paris, France."];
 	var randomNumber = Math.floor(Math.random() * 4) + 5;
-	 var quote = randomInfo[randomNumber]
+	var quote = randomInfo[randomNumber -1]
     var imgName =  randomNumber + ".jpg";
     document.getElementById("art").src= imgName
     document.getElementById("artDescription").textContent= quote;
 
  });
 
+document.querySelector('.photographs').addEventListener('click', function(){
+	var randomInfo= ["Earthrise by William Anders December 24, 1968 dated the first manned mission to orbit the moon. At the beginning of the fourth of 10 orbits, their spacecraft emerged from the far side of the moon when a view of the Earth filled one of the hatch windows. The astronauts, Frank Borman, Jim Lovell and Bill Anders, took the shot and it was our first full-color view of our planet which helped launch the environmental movement. " 
+	, "Raising the Flag on Iwo Jima by Joe Rosenthal. Raising the Flag on Iwo Jima is an iconic photograph captured by Associated Press photographer Joe Rosenthal on February 23, 1945. The picture depicts six United States Marines raising a U.S. flag on top of Mount Suribachi, during the battle of Iwo Jima, in World War II. Rosenthal’s photo became one of the most recognizable images of war and embraced as a symbol of unity in the long-fought war. " ,
+	"The Falling Man by Richard Drew The Falling Man was a photo taken by Richard Drew in the moments after the September 11 attacks. It’s a photo of one man’s distinct escape from the burning, collapsing building that serves as a symbol of individuality. On this day of mass tragedy, Falling Man is one of the only widely seen pictures that shows someone dying. The true power of Falling Man is less about who its subject was since his identity is still unknown, but more about what he became: a makeshift unknown soldier in an often unknown and uncertain war, suspended forever in history.", 
+	];
+	var randomImage =["13.jpg", "14.jpg", "15.jpg" , "16.jpg" ];
+	var randomNumber = Math.floor(Math.random() * 4) + 13;
+	 var quote = randomInfo[randomNumber -1]
+     var imgName =  randomNumber + ".jpg";
+    document.getElementById("art").src= imgName
+     document.getElementById("artDescription").textContent= quote;
+
+ });
+
 document.querySelector('.mosaics').addEventListener('click', function(){
 	var randomImage =["9.jpg", "10.jpg", "11.jpg" , "12.jpg" ];
 	var randomNumber = Math.floor(Math.random() * 4) + 9;
-    var imgName =  randomNumber + ".jpg";
-    document.getElementById("art").src= imgName
- });
-
-document.querySelector('.photographs').addEventListener('click', function(){
-	var randomImage =["13.jpg", "14.jpg", "15.jpg" , "16.jpg" ];
-	var randomNumber = Math.floor(Math.random() * 4) + 13;
     var imgName =  randomNumber + ".jpg";
     document.getElementById("art").src= imgName
  });
