@@ -28,6 +28,9 @@ h2 {
   	overflow-x: hidden;
   	padding-top: 20px;
 }
+.background{
+	background-repeat: no-repeat; 
+}
 
 .sidenav a {
 	color: beige;
